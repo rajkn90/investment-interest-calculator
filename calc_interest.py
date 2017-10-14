@@ -100,7 +100,7 @@ if __name__ == '__main__':
 	if(calc.runCalculator()):
 		print("Daily Compounded Interest = ", calc.getDailyCompoundedInterestRate()*100, "%")
 		print("Annualized Compounded Interest = ", calc.getAnnualizedInterestRate()*100, "%")
-		print("Interest Until ", currentDate, "is ", calc.getCurrentInterestRate()*100, "%")
+		print("Interest Until", currentDate, "is ", calc.getCurrentInterestRate()*100, "%")
 		print("")
 	else:
 		print("Interest couldn't be calculated. Newton's method failed to converge")
