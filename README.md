@@ -12,7 +12,7 @@ Deposit_3_Date in <Year Month Date> format and <Deposit_3_Amount> (for withdrawa
 Deposit_N_Date in <Year Month Date> format and <Deposit_N_Amount> (for withdrawals, use negative numbers)
 Current_Date in <Year Month Date> format and <Current_Value_In_Account>
 
-To run: 
+#To run: 
 >> python calc_interest.py sample.txt
 
 Sample output looks like this:
