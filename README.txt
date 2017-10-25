@@ -1,6 +1,4 @@
-This script calculates Return of Investment for an investment account with multiple deposits and withdrawals at different times.
-This considers both the amount of money invested and time it was invested for to find equivalent daily compounded interest.
-It also provides Annualized compounded interest and interest until current date. 
+This script calculates Return of Investment(ROI) for an investment account with multiple deposits and withdrawals made at different times. This calculation considers both the amount of money invested and the time it was invested for, in order to find an equivalent daily compounded interest rate. It also provides Annualized compounded interest based on this daily interest rate and interest rate until current date. 
 
 sample.txt is the input and it has the following format:
 
