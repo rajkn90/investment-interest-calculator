@@ -2,14 +2,14 @@ This script calculates Return of Investment(ROI) for an investment account with 
 
 sample.txt is the input and it has the following format:
 
-<Number of deposits(withdrawals are also considered deposit with a negative amount)>
-Deposit_1_Date in <Year Month Date> format and <Deposit_1_Amount> (for withdrawals, use negative numbers)
-Deposit_2_Date in <Year Month Date> format and <Deposit_2_Amount> (for withdrawals, use negative numbers)
-Deposit_3_Date in <Year Month Date> format and <Deposit_3_Amount> (for withdrawals, use negative numbers)
+<Number of deposits (withdrawals are also considered as deposits, but with a negative amount)>
+Deposit_1_Date in <Year Month Date> format and <Deposit_1_Amount> 
+Deposit_2_Date in <Year Month Date> format and <Deposit_2_Amount> 
+Deposit_3_Date in <Year Month Date> format and <Deposit_3_Amount> 
 ..
 ..
 ..
-Deposit_N_Date in <Year Month Date> format and <Deposit_N_Amount> (for withdrawals, use negative numbers)
+Deposit_N_Date in <Year Month Date> format and <Deposit_N_Amount>
 Current_Date in <Year Month Date> format and <Current_Value_In_Account>
 
 To run: 
