@@ -25,11 +25,15 @@ Deposit Date   Amount
 2017-06-30      990.0
 2017-09-08      1500.0
 2017-09-25      420.0
-2017-10-13      500.0
+2017-10-25      1000.0
+2017-11-15      500.0
+2017-11-29      600.0
+2018-08-01      2000.0
 
 Current Date   Current Value 
-2017-10-14      8161.6 
+2018-08-07      13786.26 
 
-Daily Compounded Interest =  0.07768487600818738 %
-Annualized Compounded Interest =  32.76888405463409 %
-Interest Until 2017-10-14 is  14.645239656015118 %
+Daily Compounded Interest =  0.06764215169263305 %
+Annualized Compounded Interest =  27.99363999482447 %
+Interest Until 2018-08-07 is  37.69063628966754 %
+
