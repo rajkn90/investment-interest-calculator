@@ -93,6 +93,7 @@ if __name__ == '__main__':
 	currentDate = date(int(line[0]), int(line[1]), int(line[2]))
 	currentAmount = float(line[3])
 
+	print("\nTotal Deposits : ", sum(depositAmounts))
 	print("\nCurrent Date   Current Value ")
 	print(currentDate, "    ", currentAmount, "\n")
 
