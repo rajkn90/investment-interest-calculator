@@ -78,12 +78,18 @@ if __name__ == '__main__':
 	
 	depositDates=[]
 	depositAmounts=[]
+	total_purchased = 0
+	total_sold = 0
 	for i in range(no_of_deposits):
 		line = f.readline()
 		line = ' '.join(line.split())
 		line = line.split(' ')[:4]
 		deposit_date = date(int(line[0]), int(line[1]), int(line[2]))
 		amount = float(line[3])
+		if amount > 0:
+			total_purchased += amount
+		else:
+			total_sold += (-amount)
 		depositDates.append(deposit_date)
 		depositAmounts.append(amount)
 		print(deposit_date, "    ", amount)
@@ -92,10 +98,11 @@ if __name__ == '__main__':
 	line = line.split(' ')[:4]
 	currentDate = date(int(line[0]), int(line[1]), int(line[2]))
 	currentAmount = float(line[3])
-
-	print("\nTotal Deposits : ", sum(depositAmounts))
+	print("\nTotal Value Purchased:", total_purchased)
+	print("Total Value Sold:", total_sold)
 	print("\nCurrent Date   Current Value ")
 	print(currentDate, "    ", currentAmount, "\n")
+	print("\nNet Gain: ", total_sold-total_purchased+currentAmount)
 
 	calc = Interest_Calculator(depositDates, depositAmounts, currentDate, currentAmount)
 	if(calc.runCalculator()):
